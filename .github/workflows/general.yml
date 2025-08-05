@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: Copyright 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+# SPDX-License-Identifier: CC0-1.0
+
+name: General Tests
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  reuse:
+    uses: lunr-php/actions-templates/.github/workflows/reuse.yml@master
+  typos:
+    uses: lunr-php/actions-templates/.github/workflows/typos.yml@master
+    with:
+      config: tests/typos.toml

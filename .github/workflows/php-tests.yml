@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: Copyright 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+# SPDX-License-Identifier: CC0-1.0
+
+name: PHP Tests
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  php-tests:
+    uses: lunr-php/actions-templates/.github/workflows/php-composer.yml@master
+    with:
+      phpstan-level: 10
+      allow-style-failures: false
+      allow-phpstan-failures: false
+      codestyle-branch: '0.11.0'
+      phpcs-whitelist: tests/phpstan.bootstrap.inc.php tests/test.bootstrap.inc.php
+      php-extensions: uopz
+      stable-php-versions: '["8.1"]'
+      experimental-php-versions: '["8.2","8.3"]'
+      minimum-phpunit-version: '10.5.x'

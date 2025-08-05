@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: Copyright 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+# SPDX-License-Identifier: CC0-1.0
+
+# Files to be ignored by git
+*.kdev4
+*.swp
+*~
+
+# ignore test results
+build
+
+# ignore generated files
+vendor
+composer.lock
+decomposer.autoload.inc.php

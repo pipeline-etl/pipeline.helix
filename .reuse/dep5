@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Pipeline.Helix
+Upstream-Contact: Heinz Wiesinger <pprkut@liwjatan.org>
+Source: https://github.com/pipeline-etl/pipeline.helix
+
+Files: .git_commit_template
+Copyright: 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+License: CC0-1.0
+
+Files: composer.json
+Copyright: 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+License: CC0-1.0
+
+Files: decomposer.json
+Copyright: 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+License: CC0-1.0
+
+Files: README.md
+Copyright: 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+License: CC0-1.0

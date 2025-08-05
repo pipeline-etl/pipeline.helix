@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: Copyright 2025 Framna Netherlands B.V., Zwolle, The Netherlands
+# SPDX-License-Identifier: CC0-1.0
+
+parameters:
+    level: 10
+    paths:
+        - ../src
+    bootstrapFiles:
+        - phpstan.bootstrap.inc.php
+    excludePaths:
+        - ../src/*/Tests/*
