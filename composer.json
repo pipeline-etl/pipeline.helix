@@ -1,5 +1,5 @@
 {
-  "name": "pipeline/helix",
+  "name": "pipeline-etl/helix",
   "description": "Pipeline.Helix is a content diffing algorithm for pipeline imports",
   "keywords": [ "pipeline-etl", "data import", "ETL", "diff" ],
   "homepage": "https://github.com/pipeline-etl/pipeline.helix",
