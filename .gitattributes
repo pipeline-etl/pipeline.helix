@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: Copyright 2026 Framna Netherlands B.V., Zwolle, The Netherlands
+# SPDX-License-Identifier: CC0-1.0
+
+* text=auto eol=lf
+
+*.bash text eol=lf
+*.bats text eol=lf
+*.conf text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+*.ini text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.neon.dist text eol=lf
+*.php text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+*.xml.dist text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+bin/console text eol=lf
+
+*.ico binary
+*.png binary
