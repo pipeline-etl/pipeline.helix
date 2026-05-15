@@ -12,4 +12,3 @@ build
 # ignore generated files
 vendor
 composer.lock
-decomposer.autoload.inc.php

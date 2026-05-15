@@ -11,18 +11,7 @@
 
 $base = __DIR__ . '/..';
 
-if (file_exists($base . '/vendor/autoload.php') == TRUE)
-{
-    // Load composer autoloader.
-    $autoloadFile = $base . '/vendor/autoload.php';
-}
-else
-{
-    // Load decomposer autoloade.
-    $autoloadFile = $base . '/decomposer.autoload.inc.php';
-}
-
-require_once $autoloadFile;
+require_once $base . '/vendor/autoload.php';
 
 // Define application config lookup path
 $paths = [

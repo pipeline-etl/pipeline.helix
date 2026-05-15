@@ -7,5 +7,3 @@ set allow-duplicate-variables
 
 export github_actions := env('GITHUB_ACTIONS', '0')
 export default_coding_standard := 'Lunr'
-
-setup type='dev': (decomposer type)
