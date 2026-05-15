@@ -45,5 +45,10 @@
         "psr-4": {
             "Pipeline\\": "src/Pipeline/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pipeline\\Tests\\": "tests/unit/"
+        }
     }
 }

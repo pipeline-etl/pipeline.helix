@@ -9,7 +9,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-$base = __DIR__ . '/..';
+$base = __DIR__ . '/../..';
 
 // Define application config lookup path
 $paths = [
