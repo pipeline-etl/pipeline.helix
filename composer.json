@@ -1,8 +1,8 @@
 {
-  "name": "pipeline-etl/helix",
-  "description": "Pipeline.Helix is a content diffing algorithm for pipeline imports",
-  "keywords": [ "pipeline-etl", "data import", "ETL", "diff" ],
-  "homepage": "https://github.com/pipeline-etl/pipeline.helix",
+  "name": "pipeline-etl/requests-source",
+  "description": "Pipeline.RequestsSource is an HTTP/HTTPS pipeline source for retrieving data from HTTP endpoints",
+  "keywords": [ "pipeline-etl", "data import", "ETL", "HTTP", "source" ],
+  "homepage": "https://github.com/pipeline-etl/pipeline.requests-source",
   "type": "library",
   "license": "MIT",
   "require": {

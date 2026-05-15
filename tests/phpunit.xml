@@ -15,8 +15,8 @@
          displayDetailsOnTestsThatTriggerWarnings="true"
          displayDetailsOnPhpunitDeprecations="true">
     <testsuites>
-        <testsuite name="Helix">
-            <directory>../src/Pipeline/Helix/Tests/</directory>
+        <testsuite name="RequestsSource">
+            <directory>../src/Pipeline/RequestsSource/Tests/</directory>
         </testsuite>
     </testsuites>
     <coverage>
@@ -33,7 +33,7 @@
             <directory>../src/Pipeline/</directory>
         </include>
         <exclude>
-            <directory>../src/Pipeline/Helix/Tests/</directory>
+            <directory>../src/Pipeline/RequestsSource/Tests/</directory>
         </exclude>
     </source>
 </phpunit>

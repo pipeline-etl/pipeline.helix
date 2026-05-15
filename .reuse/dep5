@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Pipeline.Helix
+Upstream-Name: Pipeline.RequestsSource
 Upstream-Contact: Heinz Wiesinger <pprkut@liwjatan.org>
-Source: https://github.com/pipeline-etl/pipeline.helix
+Source: https://github.com/pipeline-etl/pipeline.requests-source
 
 Files: .git_commit_template
 Copyright: 2025 Framna Netherlands B.V., Zwolle, The Netherlands
