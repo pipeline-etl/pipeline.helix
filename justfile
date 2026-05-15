@@ -6,6 +6,6 @@ import x'$LUNR_JUSTFILES/common.justfile'
 set allow-duplicate-variables
 
 export github_actions := env('GITHUB_ACTIONS', '0')
-export default_coding_standard := env('LUNR_CODING_STANDARD', '/var/www/libs/lunr-coding-standard/Lunr/')
+export default_coding_standard := 'Lunr'
 
 setup type='dev': (decomposer type)
