@@ -24,7 +24,7 @@
     },
     "require-dev": {
         "framna-nl/php-library-justfiles": "dev-master",
-        "lunr/coding-standard": "0.12.0",
+        "lunr/coding-standard": "0.12.1",
         "phpstan/phpstan": "~2.1.36",
         "phpunit/phpunit": ">=10.5 <11.0",
         "squizlabs/php_codesniffer": ">=4.0",
