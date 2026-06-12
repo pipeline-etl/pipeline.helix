@@ -11,6 +11,12 @@
     "homepage": "https://github.com/pipeline-etl/pipeline.requests-source",
     "type": "library",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/framna-nl-backend/requests.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
@@ -20,13 +26,19 @@
         "optimize-autoloader": true
     },
     "require": {
-        "php": ">=8.3"
+        "php": ">=8.3",
+        "davedevelopment/stiphle": "~0.9",
+        "pipeline-etl/common": "dev-master",
+        "psr/log": ">=3.0"
     },
     "require-dev": {
         "framna-nl/php-library-justfiles": "dev-master",
-        "lunr/coding-standard": "0.12.0",
+        "lunr/coding-standard": "0.12.1",
         "phpstan/phpstan": "~2.1.36",
-        "phpunit/phpunit": ">=10.5 <11.0",
+        "mockery/mockery": "~1.6",
+        "php-mock/php-mock-mockery": "~1.5",
+        "phpunit/phpunit": ">=12.0 <13.0",
+        "rmccue/requests": "~2.0 || dev-release/2.0.x",
         "squizlabs/php_codesniffer": ">=4.0",
         "shipmonk/composer-dependency-analyser": "~1.8"
     },
